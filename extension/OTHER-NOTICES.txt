@@ -1,0 +1,26 @@
+The primary work is "Oberon language support" available under the MIT License.
+
+Some elements of this work have been integrated from other works available
+under the terms of compatible licenses.  Such works and their licenses are
+detailed below.  The inclusion of these licenses neither enlarges nor
+diminishes the rights granted to you for the primary work, which is available
+to you under the terms of the license named above; however, inclusion of the
+notices and/or licenses below may be required in order to redistribute the
+primary work in whole or in part.
+
+The preceding notes are informational, and reproducing them is not itself
+intended to be a prerequisite for redistribution.
+
+### Works used under the terms of compatible licenses: ###
+
+Oberon TextMate grammar
+
+[Originally obtained from commit 506364258a0aa (2015-09-06) in source project:
+
+  https://github.com/vladfolts/oberonjs
+
+The source project itself may have incorporated third-party contributions.]
+
+Copyright (c) 2013 Vladislav Folts 
+
+[Available under the MIT License.]

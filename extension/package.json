@@ -1,0 +1,26 @@
+{
+    "name": "vscode-oberon-support",
+    "displayName": "Oberon Language Support",
+    "description": "Oberon language support for Niklaus Wirth's Project Oberon",
+    "version": "1.0.0",
+    "publisher": "colbyrussell",
+    "engines": {
+        "vscode": "^1.5.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "oberon",
+            "aliases": ["Oberon", "oberon"],
+            "extensions": [".Mod"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "oberon",
+            "scopeName": "source.oberon",
+            "path": "./syntaxes/oberon.tmLanguage"
+        }]
+    }
+}
